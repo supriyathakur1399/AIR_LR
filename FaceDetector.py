@@ -26,7 +26,7 @@ def run():
                         
                         frame= cv2.cvtColor(cv2.imread(r"C:\Users\hp\Desktop\Sessions\a\\tellocap0.jpg"), cv2.COLOR_BGR2RGB)
                         img = frame
-                        print("akshat")
+                        print("HELLO")
                         img=cv2.flip( img, 1 )
                         cv2.circle(img,(480,360), 5, (0,255,0), -1)
                         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
